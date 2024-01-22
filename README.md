@@ -28,5 +28,8 @@ predict() is predicting the positive/negative sentiment of the sentence. It also
 # 3. Display
 display() function is basically displaying positive and negative probabilities.
 
+# Final Step
+
+So, the final step is to intilize naive bayes and then call its functions to get the sentiment of the sentences.
 
 # Happy Coding :)
