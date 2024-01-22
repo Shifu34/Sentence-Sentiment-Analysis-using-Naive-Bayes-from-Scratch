@@ -1,7 +1,9 @@
 <H1 align="center">Sentence Sentiment Analysis using Naive Bayes from Scratch</H1>
 In this repository you will get the sentence sentiment analysis using naive baye's which is created from scratch.
 I will guide you through this code implementation step by step. 
+
 # Steps:
+
 - Import necessary libraries
 - Initilize your vocabulary, positive and negative vocabularies.
 - Lemmetize your vocabularies using the WordNetLemmatizer. Basic Code for WordNetLemmatizer is:
@@ -11,6 +13,7 @@ from nltk.stem import WordNetLemmatizer
 nltk.download("wordnet")
 lem = WordNetLemmatizer()
 ```
+
 - Now making Naive Bayes from scratch. It consist of three functions which are
   1. probability Calculator
   2. Predict
